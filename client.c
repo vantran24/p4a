@@ -30,7 +30,6 @@ void clientSend(int fd, char *filename)
 {
   char buf[MAXLINE];
   char hostname[MAXLINE];
-  char gobythename;
   Gethostname(hostname, MAXLINE);
 
   /* Form and send the HTTP request */
